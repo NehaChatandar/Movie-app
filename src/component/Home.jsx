@@ -12,7 +12,7 @@ const Home = () => {
 
   const getMovieData = async () => {
     try {
-      const { data } = await axios.get(`http://www.omdbapi.com/?apikey=2eaba7a8&s=${searchKeyword}`);
+      const { data } = await axios.get(`https://www.omdbapi.com/?apikey=2eaba7a8&s=${searchKeyword}`);
       if (data?.Response == "True") {
         setMovieAllData(data?.Search);
         setIsDataAvailable(true);
