@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(30, 13, 46);
+}
+
+.logo-size{
+  height: 120px;
+  border-radius: 50%;
+}
+
+.title{
+  font-size: 50px;
+  color:#8E50FD;
+  
+}
+.heading{
+  font-size: 45px;
+}
+.back-button{
+  color:#e8daff;
+  font-size: 18px;
+  background-color: #8E50FD;
+  height: 50px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+
+}
+.input-field{
+  font-size: 20px;
+  height: 60px;
+  outline: none;
+  background-color: #8E50FD;
+  color: white;
+  border-radius: 3px;
+}
+
+.search-button{
+  font-size: 20px;
+  height: 60px;
+  background-color: #8E50FD;
+  color: white;
+  border-radius: 3px;
+}
+
+.input-field::placeholder{
+  color:#dcc8fe;
+}
+
+.heading-color{
+  color:#e8daff;
+}
+
+.movie-card{
+  height: 230px;
+  width: 100%;
+  display: block; 
+}
+
+.card-bg{
+  background-color: #542a7e ;
+  overflow: hidden; /* Prevents unwanted spacing */
+  padding: 0;
+}
+
+.text-overflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 1;
+}
+
+.single-poster{
+  height: 575px;
+}
+
+.text-gray{
+  color:rgb(149, 149, 149);
+  font-weight: 500;
+}
+
+.text-yellow{
+  color:yellow;
+}
+
+.font-size-16{
+  font-size: 16px;
+}
+
+.font-size-18{
+  font-size: 18px;
+}
