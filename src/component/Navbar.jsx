@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="col-12">
           <NavLink className='text-decoration-none' to="/">
               <div className='d-flex justify-content-between'>
-                <p className='title'><img src="\assets\icon.jpg" alt="logo" className='logo-size' />Stream movie</p>
+                <p className='title'><img src="/Movie-app/icon.jpg" alt="logo" className='logo-size' />Stream movie</p>
                 <button className='back-button mt-3'>Back</button>
               </div>
             </NavLink>
