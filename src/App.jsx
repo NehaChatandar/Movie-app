@@ -9,7 +9,7 @@ function App() {
   const url = "http://www.omdbapi.com/?apikey=2eaba7a8&";
   return (
     <>
-     <Router>
+     <Router basename="/Movie-app">
       <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}></Route>
