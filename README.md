@@ -44,4 +44,6 @@ The **Movie Search App** is a React-based web application that allows users to s
 - **Search Movies:**
   ```sh
   GET https://www.omdbapi.com/?apikey=YOUR_API_KEY&s=SEARCH_TERM
-
+- **Get Movie Details:**
+```sh
+GET https://www.omdbapi.com/?apikey=YOUR_API_KEY&i=MOVIE_ID
