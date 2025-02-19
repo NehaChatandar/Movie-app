@@ -51,6 +51,6 @@ The **Movie Search App** is a React-based web application that allows users to s
   ```
 
 ## 📌 Conclusion
-The **Movie Search App** efficiently fetches and displays movie information using the **OMDb API**. It provides a seamless experience for users to **search, browse, and view details** of their favorite movies.
+The **Movie Search App** efficiently fetches and displays movie information using the **OMDb API**. It provides a seamless experience for users to **search, browse, and view details** of their favourite movies.
 
 
